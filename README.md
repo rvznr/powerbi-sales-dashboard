@@ -38,32 +38,31 @@ The dashboard supports real-time exploration of sales patterns, category perform
 
 ---
 
-##  Dashboard Preview (Dark Theme)
+## Dashboard Preview (Dark Theme)
 
-![Item Sales Dashboard – Gold Black Theme](screenshots/item_sales_dashboard.png)
+![Item Sales Dashboard – Gold Black Theme](screenshots/item_sales_dashboard.jpeg)
 
 ---
 
 ## Technologies Used
 
 - **Microsoft Power BI Desktop**  
-- **DAX Measures** for future KPIs (optional extensions)  
-- **CSV-based or mock dataset** to simulate real-world scenarios  
-- **Custom layout and theming** inspired by modern dashboard design
+- **DAX Measures** for KPI calculation and future metrics  
+- **Excel-based dataset (`ITEMSALES.xlsx`)**  
+- **Custom layout and theming** using a dark/yellow palette for contrast and readability
 
 ---
 
 ## Files in this Repository
 
 ```plaintext
-├── salesDashboard.pbix           # Main Power BI file
-├── dataset.csv                   # Source data 
+├── salesDashboard.pbix           # Main Power BI report file
+├── ITEMSALES.xlsx                # Original data source
 ├── screenshots/
-│   └── dashboard_overview.png    # Preview of the dashboard
+│   └── item_sales_dashboard.jpeg # Updated dashboard preview
 ├── README.md                     # Project documentation
-
-```
 ---
+```
 Use Case
 
 This dashboard can be applied in real-world scenarios such as:
@@ -76,10 +75,7 @@ The design is modular and can be expanded with additional visuals such as:
 	•	Monthly revenue trend (line chart)
 	•	Category share (donut/pie chart)
 	•	Return Rate KPI
-
-Use Case
-
-This dashboard can be applied in real-world scenarios such as:
+``
 	•	Retail sales monitoring
 	•	Quarterly executive reporting
 	•	Product category trend analysis
